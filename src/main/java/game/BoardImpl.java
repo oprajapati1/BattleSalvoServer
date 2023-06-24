@@ -26,7 +26,7 @@ public class BoardImpl extends PlayerImp implements Board {
       }
     }
     this.fleet = new ArrayList<>();
-    return this.fleet; //Format Ship list into format expected by server
+    return this.fleet; //Format the Ship list into format expected by server
   }
 
   @Override
